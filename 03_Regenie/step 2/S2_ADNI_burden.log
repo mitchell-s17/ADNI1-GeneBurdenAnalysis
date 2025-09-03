@@ -1,0 +1,36 @@
+Start time: Sun Aug 17 02:58:28 2025
+
+              |=============================|
+              |      REGENIE v3.4.1.gz      |
+              |=============================|
+
+Copyright (c) 2020-2024 Joelle Mbatchou, Andrey Ziyatdinov and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+
+Log of output saved in file : /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/03_Regenie/step 2/S2_ADNI_burden.log
+
+Options in effect:
+  --step 2 \
+  --bt \
+  --bed /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI2_preQC \
+  --phenoFile /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI_AD_vs_CN_phenotypes.txt \
+  --phenoCol AD_vs_CN \
+  --covarFile /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI_PCA_merged_covariates.txt \
+  --covarColList age,sex,education,apoe4_count,PC{1:10} \
+  --pred /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/03_Regenie/step 1/S1_ADNI_pred_base.list \
+  --anno-file /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/02_Annotations/outputs/regenie/regenie_ukb.annotations.txt \
+  --set-list /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/02_Annotations/outputs/regenie/regenie_ukb.sets.txt \
+  --mask-def /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/02_Annotations/outputs/regenie/regenie_ukb.masks \
+  --aaf-bins 0.01,0.05 \
+  --build-mask max \
+  --write-mask \
+  --vc-tests skato,acato \
+  --vc-maxAAF 0.01 \
+  --out /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/03_Regenie/step 2/S2_ADNI_burden
+
+Association testing mode (joint tests) with fast multithreading using OpenMP
+ * bim              : [/mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI2_preQC.bim] n_snps = 20804
+ * fam              : [/mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI2_preQC.fam] n_samples = 793
+ * bed              : [/mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI2_preQC.bed]
+ * phenotypes       : [/mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/01_Data_Prep_QC/outputs/ADNI_AD_vs_CN_phenotypes.txt] ERROR: step 1 list file is not in the right format : /mnt/c/Users/B00731414/OneDrive - Ulster University/6. Code/ADNI/4. Gene Burden/03_Regenie/step 1/S1_ADNI_pred_base.list
